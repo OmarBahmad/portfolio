@@ -1,21 +1,38 @@
-import React, { useState } from 'react'
-import './Navbar.css'
-import { Link } from 'react-scroll'
-import MobileNav from '../mobileNav/MobileNav'
+import React, { useState, useRef, useEffect } from "react";
+import "./Navbar.css";
+import { Link } from "react-scroll";
+import MobileNav from "../mobileNav/MobileNav";
 
 const Navbar = () => {
-  const [mobilenavVisible, setMobilenavVisible] = useState(false)
-  const [hamburgerClass, setHamburgerClass] = useState('')
+  const [mobilenavVisible, setMobilenavVisible] = useState(false);
+  const [navBarFixed, setNavBarFixed] = useState(false);
+  const [hamburgerClass, setHamburgerClass] = useState("");
+
   const toggleMobilenavVisible = () => {
-    setMobilenavVisible(!mobilenavVisible)
-    if (hamburgerClass === '') {
-      setHamburgerClass('open')
+    setMobilenavVisible(!mobilenavVisible);
+    if (hamburgerClass === "") {
+      setHamburgerClass("open");
     } else {
-      setHamburgerClass('')
+      setHamburgerClass("");
     }
-  }
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window?.scrollY > 850) {
+        setNavBarFixed(true);
+      } else {
+        setNavBarFixed(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  
   return (
-    <div className="navbar">
+    <div className={`navbar ${navBarFixed ? "fixed" : ""}`}>
       <div className="navlinks">
         <div className="navlink-wrapper">
           <Link to="home" spy={true} smooth={true} duration={500}>
@@ -32,11 +49,11 @@ const Navbar = () => {
             EXPERIENCE
           </Link>
         </div>
-        {/* <div className="navlink-wrapper">
+        <div className="navlink-wrapper">
           <Link to="projects" spy={true} smooth={true} duration={500}>
             PROJECTS
           </Link>
-        </div> */}
+        </div>
         <div className="navlink-wrapper">
           <Link to="contact" spy={true} smooth={true} duration={500}>
             CONTACT
@@ -60,7 +77,7 @@ const Navbar = () => {
         mobilenavVisible={mobilenavVisible}
       />
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

@@ -14,6 +14,7 @@ const MobileNav = ({ toggleMobilenavVisible, mobilenavVisible }) => {
               spy={true}
               smooth={true}
               duration={500}
+              offset={50}
               onClick={toggleMobilenavVisible}
             >
               HOME
@@ -25,7 +26,7 @@ const MobileNav = ({ toggleMobilenavVisible, mobilenavVisible }) => {
               to="about"
               spy={true}
               smooth={true}
-              offset={1}
+              offset={50}
               duration={500}
               onClick={toggleMobilenavVisible}
             >

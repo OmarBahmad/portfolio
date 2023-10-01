@@ -9,6 +9,16 @@
   border-bottom: 3px solid #0be779;
   pointer-events: fill;
 }
+
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 99999;
+}
+
 .navbar a {
   cursor: pointer;
   font-weight: 600;
@@ -86,6 +96,7 @@
   width: 0%;
   left: 50%;
 }
+
 @media screen and (min-width: 600px) {
   .profile {
     width: 120px;

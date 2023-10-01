@@ -18,7 +18,7 @@ const skillsData = {
     { "id": 3, "skillName": "Javascript", "amount": "85" },
     {
       "id": 4,
-      "skillName": "REST",
+      "skillName": "TypeScript",
       "amount": "80"
     },
     {

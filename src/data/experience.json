@@ -2,48 +2,72 @@
   "experience": [
     {
       "id": 0,
-      "link": "https://www.8secondz.com/",
-      "company": "8secondz",
-      "title": "Creative Lead - Web & App Teams",
-      "dateFrom": "June 2020",
-      "dateTo": "July 2021",
+      "link": "https://bideafactory.com/",
+      "company": "Bidea Factory",
+      "title": "Frontend Engineer",
+      "dateFrom": "March 2023",
+      "dateTo": "Current",
       "info": [
-        "Responsible for web team front-end development and design",
-        "Led in app UI/UX & company wide creative media content"
+        "Developed and maintained dynamic, user-friendly web interfaces for e-commerce websites using VTEX technology.",
+        "Implemented responsive designs, ensuring cross-browser compatibility and optimal performance.",
+        "Collaborated closely with design and backend teams to create seamless and visually appealing user experiences.",
+        "Contributed to the success of e-commerce projects, driving online business growth through frontend expertise."
       ],
-      "stack": ["Vue.js", "Nuxt.js", "Node.js", "AWS"],
+      "stack": ["Next.js", "React.js", "TypeScript", "GraphQL", "REST"],
       "logoheight": 80,
-      "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
-      "colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+      "colourPrimary": "linear-gradient(to bottom, #fff, #fff)",
+      "colourSecondary": "linear-gradient(to bottom, #fff, #fff)"
     },
     {
       "id": 1,
-      "link": "https://www.psykinetic.com",
-      "company": "Psykinetic",
-      "title": "Immersive Tech & Web Developer",
-      "dateFrom": "August 2020",
-      "dateTo": "Current",
+      "link": "https://wedigi.com.br/",
+      "company": "We Digi",
+      "title": "Frontend Engineer",
+      "dateFrom": "January 2023",
+      "dateTo": "March 2023",
       "info": [
-        "Developing VR application with UE4 and C++ for Oculus Quest",
-        "Web design & development of web platform using wix"
+        "Developed and maintained dynamic, user-friendly web interfaces for e-commerce websites using VTEX technology."
       ],
-      "stack": ["C++", "UE4", "VR", "Web Design"],
+      "stack": ["Next.js", "React.js", "TypeScript", "GraphQL", "JQuery", "Gulp", "Vanilla.js" ,"REST"],
       "logowidth": 80,
       "colourPrimary": "linear-gradient(to bottom, #465a90, #1e3470)",
       "colourSecondary": "linear-gradient(to bottom, #465a90, #1e3470)"
     },
     {
       "id": 2,
-      "link": "https://www.cactuscan.com",
-      "company": "CactusCan",
-      "title": "Creative Lead",
+      "link": "https://codeby.global/",
+      "company": "Codeby",
+      "title": "Frontend Engineer",
+      "dateFrom": "December 2021",
+      "dateTo": "January 2023",
+      "info": [
+        "Collaborated with cross-functional teams to develop and maintain responsive web applications and user interfaces.",
+        "Translated design mockups and wireframes into high-quality, pixel-perfect frontend code.",
+        "Implemented modern web technologies, including HTML5, CSS3, JavaScript, and popular JavaScript libraries/frameworks.",
+        "Ensured cross-browser compatibility and optimized web applications for speed and performance.",
+        "Conducted code reviews, debugging, and troubleshooting to maintain code quality and reliability.",
+        "Actively participated in project planning, providing technical insights and recommendations."
+      ],
+      "stack": ["Next.js", "React.js", "TypeScript", "GraphQL", "JQuery", "Gulp", "Vanilla.js" ,"REST", "Sass", "Ruby on Rails"],
+      "logowidth": 80,
+      "colourPrimary": "linear-gradient(to bottom, #0592ff, #47afff)",
+      "colourSecondary": "linear-gradient(to bottom, #0592ff, #47afff)"
+    },
+    {
+      "id": 3,
+      "link": "https://www.chatpro.com.br/",
+      "company": "ChatPro",
+      "title": "Web Developer",
       "dateFrom": "2016",
       "dateTo": "Current",
       "info": [
-        "Co-founding CactusCan in 2015 has led to many exciting projects with incredible customers.",
-        "Web design, marketing, media and customer engagement."
+        "Assisted in the development and testing of chatbot applications and AI-powered solutions.",
+        "Worked closely with senior developers to implement features and functionalities.",
+        "Assisted in the creation of documentation, user guides, and knowledge base articles.",
+        "Participated in team meetings and brainstorming sessions to contribute ideas and insights.",
+        "Collaborated with the support team to troubleshoot and resolve user issues."
       ],
-      "stack": ["React", "Marketing", "Design", "UI/UX"],
+      "stack": ["React.js", "GraphQL", "JavaScript" ,"REST", "HTML", "CSS"],
       "logowidth": 80,
       "colourPrimary": "linear-gradient(to bottom, #39b175, #0be779)",
       "colourSecondary": "linear-gradient(to bottom, #39b175, #0be779)"
