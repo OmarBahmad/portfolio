@@ -2,6 +2,10 @@
   "background": {
     "color": "#282c34"
   },
+  "style": {
+    "height": "100vh",
+    "position": "absolute"
+  },
   "interactivity": {
     "events": {
       "onClick": {
@@ -45,7 +49,7 @@
         "default": "bounce"
       },
       "random": false,
-      "speed": 6,
+      "speed": 4,
       "straight": false
     },
     "number": {

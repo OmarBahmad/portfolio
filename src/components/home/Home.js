@@ -5,7 +5,7 @@ import { Bounce } from 'react-reveal'
 import { Link } from 'react-scroll'
 
 import Particles from 'react-particles'
-import { loadFull } from 'tsparticles'
+import { loadSlim } from 'tsparticles-slim'
 import particlesOptions from './particles.json'
 
 import Typewriter from 'typewriter-effect'
@@ -18,13 +18,17 @@ const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
 
   const particlesInit = useCallback((main) => {
-    loadFull(main)
+    loadSlim(main)
   }, [])
 
   return (
     <div className="home-wrapper">
       <div className="home">
-        <Particles options={particlesOptions} init={particlesInit} />
+        <Particles
+          options={particlesOptions}
+          init={particlesInit}
+          height={window.outerHeight}
+        />
         <div className={`greeting${!imageLoaded ? ' hide' : ''}`}>
           <Fade bottom distance="40px">
             <img
