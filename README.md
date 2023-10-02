@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Omar Bahmad’s Portfolio
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+Welcome to my portfolio! I'm Omar Bahmad, a passionate software engineer and web developer with experience in crafting web applications using technologies like Next.js, React.js, and GraphQL. I'm also well-versed in data analysis, machine learning, and natural language processing.
 
-### `npm start`
+## Projects
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Here are some of the projects I've created or contributed to:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1. **[Personal Website](https://portfolio-omarbahmad.vercel.app/):** Explore my portfolio, resume, and blog on my personal website. It's built with React.js, GraphQL and Sass hosted on Vercel.
 
-### `npm test`
+## About Me
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I’m a software engineer and web developer who is passionate about creating innovative and user-friendly solutions. I have a technical degree in computer science from the Universidade Cruzeiro do Sul. I have also completed several online courses and certifications from platforms such as Coursera, Udemy, and edX.
 
-### `npm run build`
+I'm passionate about continuously learning new technologies and frameworks, and I'm particularly interested in data science, machine learning, and natural language processing. I enjoy applying these techniques to address real-world challenges.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here are some of the technologies and tools I use:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- **Programming Languages:** JavaScript, TypeScript
+- **Web Development:** Next.js, React.js, GraphQL, MongoDB, Firebase, HTML, CSS, Bootstrap, Sass, Vtex IO, Vtex CMS, Vtex FastStore
+- **Cloud Services:** Azure, AWS, Google Cloud, Vercel, Heroku, Netlify
+- **Version Control:** Git, GitHub, GitLab, Bitbucket
+- **IDEs and Editors:** VS Code, PyCharm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contact Me
 
-### `npm run eject`
+I'd love to connect with you! Feel free to reach out through any of the following channels:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Email:** [omarbahmad@gmail.com](mailto:omarbahmad@gmail.com)
+- **LinkedIn:** [omar-bahmad](https://www.linkedin.com/in/omarbahmad)
+- **GitHub:** [OmarBahmad](https://github.com/OmarBahmad)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Thank you for visiting my portfolio. I hope you've enjoyed it and found it interesting. Your feedback and suggestions are always welcome. Have a fantastic day! 😊
