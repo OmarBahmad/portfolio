@@ -102,8 +102,6 @@ const Projects = () => {
       setLoadProjectsError(true)
     }
   }
-
-  if (loadProjectsError === false) {
     return (
       <Section title="Projects">
         <div className="projects-content">
@@ -123,7 +121,7 @@ const Projects = () => {
                 </li>
               )
             })}
-            {Object.keys(githubProjects).map((repo) => {
+            {!loadProjectsError && Object.keys(githubProjects).map((repo) => {
               if (githubProjects[repo].name) {
                 return (
                   <li key={githubProjects[repo].name}>
@@ -141,7 +139,7 @@ const Projects = () => {
             <div className="more-projects-wrapper">
               <a
                 className="project-link"
-                href={'https://github.com/jigalin'}
+                href={'https://github.com/omarbahmad'}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -158,9 +156,6 @@ const Projects = () => {
         </div>
       </Section>
     )
-  } else {
-    return null
-  }
 }
 
 export default Projects
