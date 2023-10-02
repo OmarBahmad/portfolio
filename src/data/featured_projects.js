@@ -11,6 +11,7 @@ const featured_projects = {
         { name: "React.Js", color: "rgb(241, 224, 90)" },
         { name: "Typescript", color: "rgb(100, 219, 255)" },
         { name: "GraphQL", color: "#ff5c01" },
+        { name: "Vtex IO", color: "#97b93c" }
       ],
     },
     {
@@ -24,6 +25,7 @@ const featured_projects = {
         { name: "React.Js", color: "rgb(241, 224, 90)" },
         { name: "Typescript", color: "rgb(100, 219, 255)" },
         { name: "GraphQL", color: "#ff5c01" },
+        { name: "Vtex IO", color: "#97b93c" }
       ],
     },
     {
@@ -37,6 +39,8 @@ const featured_projects = {
         { name: "Next.Js", color: "rgb(241, 224, 90)" },
         { name: "Typescript", color: "rgb(100, 219, 255)" },
         { name: "GraphQL", color: "#ff5c01" },
+        { name: "Vtex FastStore", color: "#97b93c" }
+
       ],
     },
     {
@@ -50,6 +54,8 @@ const featured_projects = {
         { name: "Jquery", color: "rgb(241, 224, 90)" },
         { name: "HTML", color: "rgb(100, 219, 255)" },
         { name: "CSS", color: "#ff5c01" },
+        { name: "Vtex CMS", color: "#97b93c" }
+
       ],
     },
     {
@@ -64,6 +70,8 @@ const featured_projects = {
         { name: "HTML", color: "rgb(100, 219, 255)" },
         { name: "CSS", color: "#ff5c01" },
         { name: "Google Analytics", color: "#00a0e3" },
+        { name: "Vtex CMS", color: "#97b93c" }
+
       ],
     },
   ],
